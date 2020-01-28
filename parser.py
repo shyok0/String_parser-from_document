@@ -5,13 +5,13 @@
 |    Author : Yokesh                      |
 |    Email  : y.subramanian@keele.ac.uk   |
 ===========================================
-args in: file_name, type = 'file_type', delete = [], start = [], end = [], both = []
+args in: file_name, type = 'file_type', delete = [], start = [], end = [], both = [], lower_case = boolean
 file_name : Name of the file with extension as string
 path   : only specify if the file is in a different directory, input as string
 type   : 'txt' or 'pdf'
 delete : Removes the char everywhere in the string_list
-start  : Removes the char at the start of string_list but not everywhere
-end    : Removes the char at the end of string_list but not everywhere
+start  : Removes the char at the start of string_list but not everywhere, ideal for ['-else', '.html'] = ['else', 'html']
+end    : Removes the char at the end of string_list but not everywhere, ideal for ['more,' 'done.'] = ['more', 'done']
 both   : Removes the char at either ends. If both is defined, start and end lists are redundant
 No packages required unless you wish to parse strings from pdf, then the only requirement is the package 'tika'
 Note: tika requires java 7+ to run
