@@ -5,11 +5,17 @@ Strip pdf/text into strings
 args in: file_name, type = 'file_type', delete = [], start = [], end = [], both = []
 
 file_name : Name of the file with extension as string
+
 path   : only specify if the file is in a different directory, input as string
+
 type   : 'txt' or 'pdf'
+
 delete : Removes the char everywhere in the string_list
+
 start  : Removes the char at the start of string_list but not everywhere
+
 end    : Removes the char at the end of string_list but not everywhere
+
 both   : Removes the char at either ends. If both is defined, start and end lists are redundant
 '''
 
