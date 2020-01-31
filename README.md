@@ -15,5 +15,6 @@ Strip pdf/text into strings
 
 No packages required unless you wish to parse strings from pdf, then the only requirement is the package 'tika'
 
-Note: tika requires java 7+ to run pdf_parser file courtesy: tika Dev team
-Errors while running tika: Make sure that Java version 7+ is installed and added to path variable. Restart your PC once Java is installed
+Note: tika requires java 7+ to run pdf_parser file courtesy: tika Dev team.
+
+Errors while running tika: Make sure that Java version 7+ is installed, added to path variable and PC restarted once Java is installed.
